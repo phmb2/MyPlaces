@@ -16,7 +16,6 @@ class ListFragment : Fragment() {
 
     private lateinit var listViewModel: ListViewModel
     private lateinit var recyclerView: RecyclerView
-    //private lateinit var adapter: ListPlacesAdapter
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
 
@@ -33,8 +32,7 @@ class ListFragment : Fragment() {
                     recyclerView.setHasFixedSize(true)
 
                     recyclerView.adapter = ListPlacesAdapter(places) { place ->
-                        //val intent = PlaceDetailsActivity.getStartIntent(this@ListFragment, place.name, place.address)
-                        //this@ListFragment.startActivity(intent)
+                        
                     }
                 }
             }
