@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image_place_shopping"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginBottom="8dp"
+        android:layout_gravity="clip_vertical"
+        android:src="@drawable/place_shopping" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image_place_party"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginBottom="8dp"
+        android:layout_gravity="clip_vertical"
+        android:src="@drawable/place_party" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image_place_restaurant"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="330dp"
+        android:layout_marginBottom="8dp"
+        android:layout_gravity="clip_vertical"
+        android:src="@drawable/place_restaurant" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image_profile"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:civ_border_color="@color/colorPrimaryDark"
+        app:civ_border_width="4dp"
+        android:layout_marginBottom="8dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/profile" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image_place_market"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:layout_gravity="clip_vertical"
+        android:src="@drawable/place_market" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image_place_airport"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="260dp"
+        android:layout_marginBottom="8dp"
+        android:layout_gravity="clip_vertical"
+        android:src="@drawable/place_airport" />
+
+
+
+</LinearLayout>
